@@ -1,0 +1,38 @@
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.deps.json
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.runtimeconfig.json
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Application.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.AssemblyInfo.cs
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.csproj.CopyComplete
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\refint\ElKafrwy.Infrastructure.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.genruntimeconfig.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ref\ElKafrwy.Infrastructure.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.deps.json
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.runtimeconfig.json
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Infrastructure.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Application.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\bin\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.AssemblyInfo.cs
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.csproj.CopyComplete
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\refint\ElKafrwy.Infrastructure.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ElKafrwy.Infrastructure.genruntimeconfig.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Infrastructure\obj\Debug\net7.0\ref\ElKafrwy.Infrastructure.dll

@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Temp\\Desktop\\معرض السيراميك\\ElKafrwy.API\\ElKafrwy.API\\wwwroot\\images\\products\\47dda65b-4643-44f7-b9f1-0ad903b57f40.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\47dda65b-4643-44f7-b9f1-0ad903b57f40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Temp\\Desktop\\معرض السيراميك\\ElKafrwy.API\\ElKafrwy.API\\wwwroot\\images\\products\\6bf01472-7458-44a0-8f2a-1ec2b14824e6.png",
+      "PackagePath": "staticwebassets\\images\\products\\6bf01472-7458-44a0-8f2a-1ec2b14824e6.png"
+    },
+    {
+      "Id": "C:\\Users\\Temp\\Desktop\\معرض السيراميك\\ElKafrwy.API\\ElKafrwy.API\\wwwroot\\images\\products\\75e1258b-2b08-4e53-accd-81d03fa11c5d.webp",
+      "PackagePath": "staticwebassets\\images\\products\\75e1258b-2b08-4e53-accd-81d03fa11c5d.webp"
+    },
+    {
+      "Id": "C:\\Users\\Temp\\Desktop\\معرض السيراميك\\ElKafrwy.API\\ElKafrwy.API\\wwwroot\\images\\products\\75ee3577-2ef0-413d-87ae-117c00d8c38e.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\75ee3577-2ef0-413d-87ae-117c00d8c38e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Temp\\Desktop\\معرض السيراميك\\ElKafrwy.API\\ElKafrwy.API\\wwwroot\\images\\products\\b73ce1b5-b1b9-4093-b2f9-00e1416c88c6.jfif",
+      "PackagePath": "staticwebassets\\images\\products\\b73ce1b5-b1b9-4093-b2f9-00e1416c88c6.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Temp\\Desktop\\معرض السيراميك\\ElKafrwy.API\\ElKafrwy.API\\wwwroot\\images\\products\\eeb2999c-a666-4406-96c3-54573a768a43.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\eeb2999c-a666-4406-96c3-54573a768a43.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ElKafrwy.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ElKafrwy.API.props",
+      "PackagePath": "build\\ElKafrwy.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ElKafrwy.API.props",
+      "PackagePath": "buildMultiTargeting\\ElKafrwy.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ElKafrwy.API.props",
+      "PackagePath": "buildTransitive\\ElKafrwy.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

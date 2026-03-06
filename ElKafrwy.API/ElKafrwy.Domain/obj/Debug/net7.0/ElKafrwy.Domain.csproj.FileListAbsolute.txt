@@ -1,0 +1,28 @@
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.deps.json
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.runtimeconfig.json
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.csproj.AssemblyReference.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.AssemblyInfoInputs.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.AssemblyInfo.cs
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\refint\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.genruntimeconfig.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ref\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.deps.json
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.runtimeconfig.json
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\bin\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.csproj.AssemblyReference.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.AssemblyInfoInputs.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.AssemblyInfo.cs
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\refint\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ElKafrwy.Domain.genruntimeconfig.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Domain\obj\Debug\net7.0\ref\ElKafrwy.Domain.dll

@@ -1,0 +1,34 @@
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.deps.json
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.runtimeconfig.json
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.csproj.AssemblyReference.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.AssemblyInfoInputs.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.AssemblyInfo.cs
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.csproj.CoreCompileInputs.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.csproj.CopyComplete
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\refint\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.pdb
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.genruntimeconfig.cache
+C:\Users\Temp\Desktop\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ref\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.deps.json
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.runtimeconfig.json
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Application.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Domain.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\bin\Debug\net7.0\ElKafrwy.Domain.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.csproj.AssemblyReference.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.AssemblyInfoInputs.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.AssemblyInfo.cs
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.csproj.CoreCompileInputs.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.csproj.CopyComplete
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\refint\ElKafrwy.Application.dll
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.pdb
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ElKafrwy.Application.genruntimeconfig.cache
+C:\Users\Temp\Desktop\معرض السيراميك\ElKafrwy.API\ElKafrwy.Application\obj\Debug\net7.0\ref\ElKafrwy.Application.dll
