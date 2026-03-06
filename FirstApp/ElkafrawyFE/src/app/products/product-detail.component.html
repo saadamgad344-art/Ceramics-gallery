@@ -1,0 +1,60 @@
+<!--<div class="container">
+  <div class="button-row">
+    <button (click)="back()">العودة</button>
+    <button *ngIf="!isAdmin()" (click)="addToCart()">أضف إلى السلة</button>
+  </div>
+  <div *ngIf="loading()">...جارٍ التحميل</div>
+  <div *ngIf="error()" class="error">{{ error() }}</div>
+  <div *ngIf="product() as p">
+    <h2>{{ p.name }}</h2>
+    <p>{{ p.description }}</p>
+    <div class="meta-list">
+      <p>السعر / متر: {{ p.pricePerMeter | currency }}</p>
+      <p>التصنيف: {{ p.categoryName }}</p>
+      <p>العلامة: {{ p.brandName }}</p>
+      <p>المخزون: {{ p.stockQuantity }}</p>
+    </div>
+    <ul class="image-list">
+      <li *ngFor="let img of (p.productImages || [])">
+        <img *ngIf="img.imageUrl && img.imageUrl !== 'null'" [src]="img.imageUrl" width="100" />
+        <span *ngIf="!img.imageUrl || img.imageUrl === 'null'">(لا توجد صورة)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+-->
+<div class="container">
+  <div class="button-row">
+    <button (click)="back()">العودة</button>
+  </div>
+
+  <div *ngIf="loading()">...جارٍ التحميل</div>
+  <div *ngIf="error()" class="error">{{ error() }}</div>
+
+  <div *ngIf="product() as p">
+    <h2>{{ p.name }}</h2>
+    <p>{{ p.description }}</p>
+
+    <div class="meta-list">
+      <p>السعر / متر: {{ p.pricePerMeter | currencyFormat }}</p>
+      <p>التصنيف: {{ p.categoryName }}</p>
+      <p>العلامة: {{ p.brandName }}</p>
+      <p>المخزون: {{ p.stockQuantity }}</p>
+    </div>
+
+    <!-- إضافة حقل تحديد الكمية -->
+    <div class="add-cart-row" *ngIf="!isAdmin()">
+      <label>الكمية:</label>
+      <input type="number" min="1" [max]="p.stockQuantity" [(ngModel)]="quantity" />
+      <button (click)="addToCart()">أضف إلى السلة</button>
+    </div>
+
+    <ul class="image-list">
+      <li *ngFor="let img of (p.productImages || [])">
+        <img *ngIf="img.imageUrl && img.imageUrl !== 'null'" [src]="img.imageUrl" width="100" />
+        <span *ngIf="!img.imageUrl || img.imageUrl === 'null'">(لا توجد صورة)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+

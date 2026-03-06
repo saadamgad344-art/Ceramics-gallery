@@ -1,0 +1,62 @@
+<div class="container">
+  <h2 *ngIf="!isEdit()">إضافة منتج جديد</h2>
+  <h2 *ngIf="isEdit()">تعديل المنتج</h2>
+  <form (ngSubmit)="submit()" class="product-form">
+    <div class="form-group">
+      <label>الاسم:<input [(ngModel)]="model.name" name="name" required /></label>
+    </div>
+    <div class="form-group">
+      <label>الوصف:<input [(ngModel)]="model.description" name="description" /></label>
+    </div>
+    <div class="form-group">
+      <label>السعر لكل متر:<input type="number" [(ngModel)]="model.pricePerMeter" name="price" /></label>
+    </div>
+    <div class="form-group">
+      <label>اللون:<input [(ngModel)]="model.color" name="color" /></label>
+    </div>
+    <div class="form-group">
+      <label>المقاس:<input [(ngModel)]="model.size" name="size" /></label>
+    </div>
+    <div class="form-group">
+      <label>الكمية في المخزون:<input type="number" [(ngModel)]="model.stockQuantity" name="stock" /></label>
+    </div>
+    <div class="form-group">
+      <label>التصنيف:
+        <select [(ngModel)]="model.categoryId" name="categoryId">
+          <option [ngValue]="undefined">-- اختر تصنيف --</option>
+          <option *ngFor="let c of categories()" [ngValue]="c.id">{{ c.name }}</option>
+        </select>
+      </label>
+    </div>
+    <div class="form-group">
+      <label>العلامة:
+        <select [(ngModel)]="model.brandId" name="brandId">
+          <option [ngValue]="undefined">-- اختر علامة --</option>
+          <option *ngFor="let b of brands()" [ngValue]="b.id">{{ b.name }}</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="images-section">
+      <h4>صور المنتج</h4>
+      <div *ngFor="let img of (model.productImages || []); let i = index" class="image-row">
+        <input [(ngModel)]="model.productImages![i].imageUrl" name="img{{i}}" placeholder="https://..." />
+        <button type="button" (click)="removeImage(i)">إزالة</button>
+      </div>
+      <button type="button" (click)="addImage()">إضافة رابط صورة</button>
+      <input type="file" (change)="onFileChange($event)" class="file-input" />
+      <div *ngIf="imageFiles.length">
+        <div *ngFor="let f of imageFiles; let j = index" class="image-row">
+          <span>{{ f.name }}</span>
+          <button type="button" (click)="imageFiles.splice(j,1)">إزالة</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="action-buttons">
+      <button *ngIf="isAdmin()" type="submit" [disabled]="loading()">{{ isEdit() ? 'حفظ التغييرات' : 'إنشاء' }}</button>
+      <button *ngIf="isEdit() && isAdmin()" type="button" (click)="delete()">حذف المنتج</button>
+    </div>
+  </form>
+  <div *ngIf="error()" class="error">{{ error() }}</div>
+</div>

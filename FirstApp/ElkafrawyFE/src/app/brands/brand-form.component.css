@@ -1,0 +1,105 @@
+/*form {
+  max-width:400px;
+  background:#fff;
+  padding:1rem;
+  border-radius:8px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  gap:0.75rem;
+}
+.error { color:red }
+input {
+  padding:0.5rem;
+  border:1px solid #ccc;
+  border-radius:4px;
+}*/
+/* Form container */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* مسافة بين كل عنصر */
+  max-width: 400px;
+  margin: 1rem auto;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* H2 العنوان */
+h2 {
+  text-align: center;
+  color: #1976d2;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* Labels و Inputs */
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #333;
+}
+
+input {
+  margin-top: 0.35rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 5px rgba(25, 118, 210, 0.3);
+  outline: none;
+}
+
+/* زر الإرسال */
+button {
+  padding: 0.6rem 1.2rem;
+  background-color: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #1565c0;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background-color: #90caf9;
+  cursor: not-allowed;
+}
+
+/* رسالة الخطأ */
+.error {
+  color: #d32f2f;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+/* Responsive للشاشات الصغيرة */
+@media (max-width: 480px) {
+  form {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+

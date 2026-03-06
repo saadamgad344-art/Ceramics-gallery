@@ -1,0 +1,25 @@
+<!--<h2>العلامات التجارية</h2>
+<div *ngIf="loading()">...جارٍ التحميل</div>
+<div *ngIf="error()" class="error">{{ error() }}</div>
+<ul>
+  <li *ngFor="let b of brands()">
+    <span>{{ b.name }}</span>
+    <button *ngIf="isAdmin()" (click)="edit(b)">تعديل</button>
+    <button *ngIf="isAdmin()" (click)="remove(b)">حذف</button>
+  </li>
+</ul>
+<button class="aa" *ngIf="isAdmin()" (click)="router.navigate(['brands','new'])">إضافة علامة</button>
+-->
+<h2>العلامات التجارية</h2>
+<div *ngIf="loading()">...جارٍ التحميل</div>
+<div *ngIf="error()" class="error">{{ error() }}</div>
+<ul>
+  <li *ngFor="let b of brands()">
+    <span>{{ b.name }}</span>
+    <button *ngIf="isAdmin()" (click)="edit(b)">تعديل</button>
+    <button *ngIf="isAdmin()" (click)="remove(b)">حذف</button>
+  </li>
+</ul>
+<button class="add-brand-btn" *ngIf="isAdmin()" (click)="router.navigate(['brands','new'])">
+  إضافة علامة
+</button>

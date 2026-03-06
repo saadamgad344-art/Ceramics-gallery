@@ -1,0 +1,7 @@
+<h2 *ngIf="!isEdit()">إضافة علامة تجارية</h2>
+<h2 *ngIf="isEdit()">تعديل العلامة</h2>
+<form (ngSubmit)="submit()">
+  <label>الاسم:<input [(ngModel)]="model.name" name="name" required /></label><br/>
+  <button type="submit" [disabled]="loading()">{{ isEdit() ? 'حفظ' : 'إنشاء' }}</button>
+</form>
+<div *ngIf="error()" class="error">{{ error() }}</div>

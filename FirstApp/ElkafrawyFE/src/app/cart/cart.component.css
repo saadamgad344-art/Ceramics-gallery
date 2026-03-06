@@ -1,0 +1,4 @@
+table { width:100%; border-collapse: collapse; background:#fff; box-shadow:0 4px 12px rgba(0,0,0,0.08); }
+th, td { border:1px solid #ddd; padding:0.6rem; }
+th { background:#f0f0f0; }
+.error { color:red }

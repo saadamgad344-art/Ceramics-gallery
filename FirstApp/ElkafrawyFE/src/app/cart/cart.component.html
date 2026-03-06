@@ -1,0 +1,55 @@
+<!--<h2>سلة المشتريات</h2>
+<div *ngIf="items().length === 0">السلة فارغة</div>
+<table *ngIf="items().length > 0">
+  <tr><th>المنتج</th><th>السعر</th><th>كمية</th><th>المجموع</th><th></th></tr>
+  <tr *ngFor="let i of items()">
+    <td>{{ i.product.name }}</td>
+    <td>{{ i.product.pricePerMeter | currency }}</td>
+    <td><input type="number" [value]="i.quantity" (change)="update(i.product.id,$any($event.target).value)" /></td>
+    <td>{{ (i.product.pricePerMeter * i.quantity) | currency }}</td>
+    <td><button (click)="remove(i.product.id)">إزالة</button></td>
+  </tr>
+</table>
+<div *ngIf="items().length > 0">
+  المجموع الكلي: {{ total() | currency }}
+  <br /><button (click)="checkout()" [disabled]="loading()">شراء</button>
+</div>
+<div *ngIf="error()" class="error">{{ error() }}</div>
+-->
+
+
+
+<h2>سلة المشتريات</h2>
+
+<div *ngIf="items().length === 0">السلة فارغة</div>
+
+<table *ngIf="items().length > 0">
+  <thead>
+    <tr>
+      <th>المنتج</th>
+      <th>السعر</th>
+      <th>كمية</th>
+      <th>المجموع</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let i of items()">
+      <td>{{ i.product.name }}</td>
+      <td>{{ i.product.pricePerMeter | currencyFormat}}</td>
+      <td>
+        <input type="number" [value]="i.quantity" min="1" (change)="update(i.product.id,$any($event.target).value)" />
+      </td>
+      <td>{{ (i.product.pricePerMeter * i.quantity) | currencyFormat }}</td>
+      <td><button (click)="remove(i.product.id)">إزالة</button></td>
+    </tr>
+  </tbody>
+</table>
+
+<div *ngIf="items().length > 0">
+  <strong>المجموع الكلي: {{ total() | currencyFormat }}</strong>
+  <br />
+  <button (click)="checkout()" [disabled]="loading()">شراء</button>
+</div>
+
+<div *ngIf="error()" class="error">{{ error() }}</div>

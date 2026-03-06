@@ -1,0 +1,33 @@
+<!--<h2>التصنيفات</h2>
+<div *ngIf="loading()">...جارٍ التحميل</div>
+<div *ngIf="error()" class="error">{{ error() }}</div>
+<ul>
+  <li *ngFor="let c of categories()">
+    <span>{{ c.name }}</span>
+    <span *ngIf="c.parentCategoryId" class="small">(فرعي)</span>
+    <button *ngIf="isAdmin()" (click)="edit(c)">تعديل</button>
+    <button *ngIf="isAdmin()" (click)="remove(c)">حذف</button>
+  </li>
+</ul>
+<button *ngIf="isAdmin()" (click)="router.navigate(['categories','new'])">إضافة تصنيف</button>
+-->
+<h2>التصنيفات</h2>
+
+<div *ngIf="loading()" class="loading">...جارٍ التحميل</div>
+<div *ngIf="error()" class="error">{{ error() }}</div>
+
+<ul class="categories-list">
+  <li *ngFor="let c of categories()" class="category-item">
+    <span class="category-name">{{ c.name }}</span>
+    <span *ngIf="c.parentCategoryId" class="category-sub">(فرعي)</span>
+
+    <span class="category-actions" *ngIf="isAdmin()">
+      <button (click)="edit(c)">تعديل</button>
+      <button (click)="remove(c)">حذف</button>
+    </span>
+  </li>
+</ul>
+
+<button *ngIf="isAdmin()" class="add-category-btn" (click)="router.navigate(['categories','new'])">
+  إضافة تصنيف
+</button>

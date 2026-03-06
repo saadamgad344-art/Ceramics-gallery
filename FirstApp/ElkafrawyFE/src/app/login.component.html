@@ -1,0 +1,15 @@
+<h2>تسجيل دخول</h2>
+<form (ngSubmit)="submit()">
+  <label>
+    البريد الإلكتروني:
+    <input type="email" [(ngModel)]="email" name="email" required />
+  </label>
+  <br />
+  <label>
+    كلمة السر:
+    <input type="password" [(ngModel)]="password" name="password" required />
+  </label>
+  <br />
+  <button type="submit" [disabled]="loading()">دخول</button>
+</form>
+<div *ngIf="error()" class="error">{{ error() }}</div>

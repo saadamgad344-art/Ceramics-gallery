@@ -1,0 +1,54 @@
+<!--<div class="container">
+  <h2>المنتجات</h2>
+  <div *ngIf="loading()">...جارٍ التحميل</div>
+  <div *ngIf="error()">{{ error() }}</div>
+  <ul>
+  <li *ngFor="let p of products()">
+    <div class="thumb clickable" (click)="view(p)">
+      <img *ngIf="p.productImages && p.productImages.length && p.productImages[0].imageUrl" [src]="p.productImages[0].imageUrl" class="product-image" alt="" />
+      <span *ngIf="!p.productImages || !p.productImages.length || !p.productImages[0].imageUrl">صورة</span>
+    </div>
+    <div class="details clickable" (click)="view(p)">
+      <strong>{{ p.name }}</strong> - {{ p.pricePerMeter | currency }}
+      <div class="meta">{{ p.categoryName }} • {{ p.brandName }}</div>
+    </div>
+    <div class="actions">
+      <button *ngIf="!isAdmin()" (click)="addToCart(p)" type="button">أضف إلى السلة</button>
+      <button *ngIf="isAdmin()" (click)="edit(p)" type="button">تعديل</button>
+      <button *ngIf="isAdmin()" (click)="remove(p)" type="button">حذف</button>
+    </div>
+  </li>
+  </ul>
+</div>
+-->
+<div class="container">
+  <h2>المنتجات</h2>
+  <div *ngIf="loading()">...جارٍ التحميل</div>
+  <div *ngIf="error()">{{ error() }}</div>
+  <ul>
+    <li *ngFor="let p of products(); let i = index">
+      <div class="thumb clickable" (click)="view(p)">
+        <img *ngIf="p.productImages && p.productImages.length && p.productImages[0].imageUrl" 
+             [src]="p.productImages[0].imageUrl" class="product-image" alt="" />
+        <span *ngIf="!p.productImages || !p.productImages.length || !p.productImages[0].imageUrl">صورة</span>
+      </div>
+
+      <div class="details clickable" (click)="view(p)">
+        <strong>{{ p.name }}</strong> - {{ p.pricePerMeter | currencyFormat }}
+        <div class="meta">{{ p.categoryName }} • {{ p.brandName }}</div>
+      </div>
+
+      <div class="actions">
+        <!-- إدخال كمية -->
+        <input *ngIf="!isAdmin()" type="number" min="1" [(ngModel)]="quantities[i]" class="quantity-input"/>
+
+        <!-- أضف إلى السلة -->
+        <button *ngIf="!isAdmin()" (click)="addToCart(p, i)" type="button">أضف إلى السلة</button>
+
+        <!-- أزرار الإدارة -->
+        <button *ngIf="isAdmin()" (click)="edit(p)" type="button">تعديل</button>
+        <button *ngIf="isAdmin()" (click)="remove(p)" type="button">حذف</button>
+      </div>
+    </li>
+  </ul>
+</div>
