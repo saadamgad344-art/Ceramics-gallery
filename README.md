@@ -136,5 +136,5 @@ ng serve
 
 **Amgad Saad** — Full Stack .NET Developer | Riyadh, Saudi Arabia 🇸🇦
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/amgad-saad)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/amgad-saad-a1a2a531a/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/saadamgad344-art)
